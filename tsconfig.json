@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "es3",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "alwaysStrict": true
+  },
+  "files": [
+    "./src/index.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
