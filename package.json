@@ -8,6 +8,7 @@
     "clean": "rimraf ./dist",
     "lint": "tslint --force \"src/**/*.ts*\"",
     "publish": "cp package.json *.md dist/ && pushd dist && rimraf *.tgz && npm pack && npm publish ./*.tgz && popd",
+    "publishbower": "pushd dist && rimraf *.tgz && bower register react-echarts-ts . && popd",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

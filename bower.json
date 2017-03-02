@@ -1,0 +1,22 @@
+{
+  "name": "react-echarts-ts",
+  "description": "ECharts for React written with Typescript.",
+  "main": "index.js",
+  "authors": [
+    "XQ Kuang <x@kxq.io>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "React",
+    "ECharts",
+    "Typescript"
+  ],
+  "homepage": "https://github.com/xuqingkuang/react-echarts-ts",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
