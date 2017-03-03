@@ -1,6 +1,5 @@
 import * as React from 'react';
 import * as ECharts from 'echarts';
-import { connect } from 'react-redux';
 import elementResizeEvent = require('element-resize-event');
 
 export interface IReactEChartsProps {
